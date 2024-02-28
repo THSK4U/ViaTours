@@ -1,52 +1,106 @@
-*{
-  font-family:sans-serif;
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') ;
+* {
+  font-family : "Poppins", sans-serif;
+  margin : 0;
 }
-header,footer{
-  position: absolute;
-  background-color: #FEF7F4;
-  width: 100%;
+header, footer {
+  background-color : #FEF7F4;
+  width : 100%;
 }
-header{
-  display:flex;
-  height:10vh;
+header {
+  display : flex;
+  height : 12vh;
 }
-footer{
-  bottom: 0;
-  height: 30vh;
+footer {
+  display : flex;
+  bottom : 0;
+  height : 30vh;
 }
-.nav{
-  width: 100%;
-}
-.nav a{
-  color:black;
-  position: relative;
-  left: 60px;
-  top: 28px;
-  text-decoration: none;
-  margin-right: 20px;
+.nav {
+  width : 100%;
 }
 .logo{
   position: relative;
-  top: 28%;
+  top: 30%;
   left: 10%;
 }
-input{
+.nav a {
   position: relative;
-  left: 120%;
+  color:black;
+  left: 60px;
+  top: 30px;
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 18px;
+}
+button {
+  position: relative;
   border: none;
   padding: 10px 25px;
   background-color: coral;
   cursor: pointer;
   color:white;
 }
+.buttonin{
+  left: 120%;
+}
+.buttonplus{
+  margin-top : 15px;
+}
 .foot{
-  position: absolute;
-  top: 20%;
+  position: relative;
+  top: 30%;
   left: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
-.foot p,h3,h5{
+.foot p,h5{
   margin-top: 20px;
+  font-size: 13px;
 }
+.content {
+  padding: 30px;
+}
+.text{
+  width: 550px;
+  float : left;
+  margin-top: 55px;
+  margin-left: 140px;
+}
+.content img {
+  width: 500px;
+  float : right;
+  margin-right: 130PX;
+}
+.content b {
+  color : coral;
+}
+.content h3 {
+  font-size : 50px;
+}
+.content p {
+  font-size : 16px;
+}
+.cards {
+  margin-top : 470px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.nous {
+  font-size : 20px;
+}
+.element {
+  margin-top: 30px;
+  display: flex;
+  gap: 55px;
+}
+.tickettext , .ballontext  , .diamondtext,.medaltext{
+  margin-top: 10px;
+  width: 300px;
+  font-size: 14px;
+  }
+.tickettitel , .ballontitel , .diamondtitel,.medaltitel{
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
